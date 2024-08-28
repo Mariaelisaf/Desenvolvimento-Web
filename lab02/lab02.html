@@ -1,0 +1,162 @@
+<title>lab02.html</title>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     body{
+    font-family: Georgia, sans-serif;
+         }
+       h1{
+    text-align: center;
+    color: rgb(176, 11, 11);
+         }
+         h2{
+    text-align: left;
+    color: rgb(151, 10, 10);
+         }
+         h3{
+    text-align: center;
+    color: rgb(176, 11, 11);
+         }
+         h4{
+    text-align: center;
+    color: rgb(176, 11, 11);
+         }
+         h5{
+    text-align: center;
+    color: rgb(176, 11, 11);
+         }
+         h6{
+    text-align: left;
+    color: rgb(176, 11, 11);
+         }
+         p{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+           }
+         ul{
+    color: rgb(100, 22, 22);
+            }
+          ol{
+    color: rgb(100, 22, 22);
+            }
+          li{
+    color: rgb(100, 22, 22);
+            }
+        form{
+    color:rgb(100, 22, 22);
+            }
+         img{
+    display: block;
+    margin: 0 auto;
+            }
+         video{
+    display: block;
+    margin: 0 auto; 
+    text-align: center;  
+         }
+     iframe {
+    text-align: center;
+            }
+
+    </style>
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShR1L7T2rKeeBPR3qun5Qb46QNV1PTxV-StQ&s" alt="Imagem Inicial">
+        <h1>Game of Thrones</h1>
+        <h3>Seja bem-vindo ao nosso site! </h3>
+        <h4>Aqui você terá acesso a informações e curiosidades sobre a série "Game of Thrones"</h4>
+
+        <main>
+            
+            <section id="inicio">
+                <h2>Sobre a série:</h2>
+                <p> Primeiramente, "Game of Thrones" é uma série de TV baseada na sequência de 5 livros, "A Song of Ice and Fire", do autor George R.R. Martin.</p> 
+                <p>A série foi ao ar de 2011 a 2019, sendo produzida pela plataforma de streaming HBO, contendo 8 temporadas no total.</p> 
+                <p>No ano de 2020, "Game of Thrones" foi eleita a melhor série de TV do século XXI.</p>
+                <h5>700 indicações, 270 prêmios e 59 Emmys </h5>
+
+            <section id="informações">
+                <h2>Ficha técnica:</h2>
+                <ul>
+                    <li>Formato: Série</li>
+                    <li>Gênero: Fantasia e Drama</li>
+                    <li>Criadores: David Benioff e D.B. Weiss</li>
+                    <li>País de origem: Estados Unidos</li>
+                    <li>Data de estreia: 17 de abril de 2011</li>
+                    <li>Emissora original: <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiZ8-qW5fWHAxVLXX8AHaroAvwYABAAGgJvYQ&co=1&ase=2&gclid=Cj0KCQjwq_G1BhCSARIsACc7NxqH6UAyPPOrfXgq4Jzw0SnuTMQSAragjV92LFLe_9VP83XpmSGytkoaAh_bEALw_wcB&ohost=www.google.com.br&cid=CAESVOD2XtTpRQJlWPFbCGf4iviOxIRJg71uTPjfs96DPDAqTfvTQZL54yqQndgUz34kyUSxul8K-D9YQ6-qNw-pl-oeiEsA_zJ0kyE7taZMSrCs8RvkIQ&sig=AOD64_2E18ArB-MaNlrZgQAsPeT0aozFjw&q&nis=4&adurl&ved=2ahUKEwjIo-CW5fWHAxXphJUCHbopDroQ0Qx6BAgIEAE">HBO MAX</a></li>
+                    <li>Temporadas: 8</li>
+                </ul>   
+            </section>
+            <section id="Enredo">
+                <h2>Enredo Principal</h2>
+                <p>A série conta a história sobre sete casas nobres que formam alianças, conspiram e travam guerras com o objetivo de reivindicar o trono. Cada casa tem suas próprias ambições, segredos e personagens marcantes, como Jon Snow, Daenerys Targaryen, Tyrion Lannister e Arya Stark.</p>
+                <h5>As casas nobres são as seguintes:</h5>
+                <ol>
+                    <li>Stark</li>
+                    <li>Lannister</li>
+                    <li>Targaryen</li>
+                    <li>Greyjoy</li>
+                    <li>Tully</li>
+                    <li>Baratheon</li>
+                    <li>Arryn</li>
+                </ol>
+                <p>Além da intriga política, a série também trata de elementos sobrenaturais, especialmente os Caminhantes Brancos, criaturas que ameaçam toda a humanidade ao norte da Muralha. No final das contas, o destino do trono e de todos os personagens é decidido em uma série de confrontos épicos e reviravoltas inesperadas, com consequências devastadoras para Westeros.</p>
+                <h5>Para saber mais sobre a história acesse o vídeo abaixo:</h5>
+        </main>
+        <video controls width="320">
+            <source src="https://youtu.be/8ANEO6YSaGQ?si=36kgpq3vINOG5tH-" type="video/mp4">
+        </video>
+            </section>
+
+        <h2>Escolha seus favoritos:</h2><h6> casas e temporadas.</h6>
+        <form action="/enviar_formulario" method="post"></form>
+            <label for="GOT">Casas:</label>
+            <select id="GOT" name="GOT">
+                <option value="Stark">Stark</option>
+                <option value="Targaryen">Targaryen</option>
+                <option value="Lannister">Lannister</option>
+                <option value="Greyjoy">Greyjoy</option>
+                <option value="Baratheon">Baratheon</option>
+                <option value="Arryn">Arryn</option>
+                <option value="Tully">Tully</option>
+            </select>
+            <label for="GOT2">Temporadas:</label>
+            <select id="GOT2" name="GOT2">
+                <option value="Temporada 1">Temporada 1</option>
+                <option value="Temporada 2">Temporada 2</option>
+                <option value="Temporada 3">Temporada 3</option>
+                <option value="Temporada 4">Temporada 4</option>
+                <option value="Temporada 5">Temporada 5</option>
+                <option value="Temporada 6">Temporada 6</option>
+                <option value="Temporada 7">Temporada 7</option>
+                <option value="Temporada 8">Temporada 8</option>
+            </select>
+            <label for="mensagem">Dê sua opinião:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Enviar">
+            </form>
+           
+            <h2>Gráfico canvas:</h2>
+            <canvas id="bloco" width="200" height="200"></canvas>
+            <script>
+            var c = document.getElementById("bloco");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(20, 20, 150, 75);
+            </script>
+
+            <h2>Gráfico SVG:</h2>
+            <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="#FF0000" stroke-width="4" fill="#FF0000" />
+            </svg>
+
+<footer>
+<p>© 2024 Meu Site de GOT</p>
+</footer>
+</body>
+</html>
