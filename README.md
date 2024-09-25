@@ -1,7 +1,7 @@
 # Desenvolvimento-Web
 Resumo dos laboratórios feitos em aula
-Lab 02: 
-Lab 04:
+Lab 02:Criação de um site para desenvolver e melhorar a compreensão sobre html.
+Lab 04: O objetivo do trabalho foi replicar um site dado pelo professor.
 Lab 16:Criação de uma calculadora ultilizando html,css e javascript.
 Lab 32:
 Lab 64: Criação de um servidor web simples usando o Node.js,que cumpre os requisitos HTTP. Neste trabalho, também foi apresentado os conceitos iniciais de backend em Java Script.
