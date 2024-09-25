@@ -1,0 +1,23 @@
+body {
+    font-family:Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(230, 103, 133);
+         }
+p{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(236, 105, 162);
+         }    
